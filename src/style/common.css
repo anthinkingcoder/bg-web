@@ -1,0 +1,259 @@
+.app-color {
+  color: #145587;
+}
+.base-font-size {
+  font-size: 14px;
+}
+.sub-color {
+  color: #b2b2b2;
+}
+.vdr {
+  display: inline-block;
+  width: 1px;
+  background-color: #dee2e6;
+  height: 14px;
+  margin-left: 3px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+html,
+body,
+#app,
+input,
+textarea {
+  font-family: PingFang SC, Helvetica Neue, Hiragino Sans GB, Microsoft Yahei, WenQuanYi Micro Hei, sans-serif;
+  width: 100%;
+  font-size: 14px;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  font-weight: bold;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  height: 1px;
+  border-top: 1px solid #dee2e6;
+}
+body {
+  background: #eff3f6;
+  color: #000;
+}
+.bottom-15 {
+  margin-bottom: 15px;
+}
+.form-control {
+  margin-bottom: 15px;
+  display: block;
+  height: 48px;
+  padding: 10px 16px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #e4e5e7;
+  -webkit-appearance: none;
+  box-shadow: none;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+  overflow: auto;
+}
+.full-height {
+  height: 100%;
+}
+.ver-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.default-button {
+  background-color: #145587;
+  border-color: #337ab7;
+  color: #fff;
+  height: 36px;
+  font-size: 14px;
+}
+.primary-btn:hover {
+  background-color: #145587;
+  opacity: 0.8;
+}
+.primary-btn {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #145587;
+  color: #fff;
+  height: 48px;
+  line-height: 48px;
+  width: 100%;
+  border: 1px solid #e4e5e7;
+  border-left: none;
+  cursor: pointer;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.primary-btn-color {
+  background-color: #145587;
+}
+.full-width {
+  width: 100%;
+}
+.l-border-h {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.r-border-h {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.ivu-select-single .ivu-select-selection {
+  height: 46px;
+  position: relative;
+  text-align: start;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #e4e5e7;
+  box-shadow: none;
+}
+.ivu-select-single .ivu-select-selection input {
+  outline: none;
+}
+.ivu-select-dropdown-list {
+  text-align: start;
+}
+.ivu-select-single .ivu-select-selection .ivu-select-placeholder {
+  height: 100%;
+  line-height: 46px;
+  font-size: 16px;
+  padding-left: 16px;
+}
+.ivu-select-single .ivu-select-selection .ivu-select-selected-value {
+  height: 100%;
+  line-height: 46px;
+  font-size: 16px;
+  color: #555;
+  padding-left: 16px;
+}
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-top-15 {
+  margin-top: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.margin-top-40 {
+  margin-top: 40px;
+}
+.margin-top-60 {
+  margin-top: 60px;
+}
+.margin-right-40 {
+  margin-right: 40px;
+}
+.margin-right-60 {
+  margin-right: 60px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+.color-gray {
+  color: #878f92 !important;
+}
+.color-333 {
+  color: #333 !important;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.text-al-r {
+  text-align: right;
+}
+.text-al-l {
+  text-align: left;
+}
+.text-al-j {
+  text-align: justify;
+}
+.text-al-c {
+  text-align: center;
+}
+.lh-185 {
+  line-height: 1.857;
+}
+.divider {
+  border: 1px solid #eee;
+}
+.weight-normal {
+  font-weight: normal;
+}
+.color-333 {
+  color: #333 !important;
+}
+.box-shadow {
+  box-shadow: 0 4px 34px 0 rgba(27,27,27,0.14);
+}
+input:-ms-input-placeholder {
+  color: #a7afb8;
+}
+/* Internet Explorer 10+ */
+input::-webkit-input-placeholder {
+  color: #a7afb8;
+}
+/* WebKit browsers */
+input::-moz-placeholder {
+  color: #a7afb8;
+}
+/* Mozilla Firefox 4 to 18 */
+input:-moz-placeholder {
+  color: #a7afb8;
+}
+/* Mozilla Firefox 19+ */
+.ivu-card {
+  position: relative;
+}
+.ivu-card-head {
+  position: relative;
+  padding: 7px 16px !important;
+}
+.ivu-card-extra {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+}
+.ivu-select-selected-value {
+  font-size: 14px !important;
+}
+.ivu-input-group-append {
+  background-color: #145587;
+  color: #fff;
+}
+.hover-show {
+  opacity: 0;
+}
+tr.ivu-table-row-hover .hover-show {
+  opacity: 1;
+}
+.ivu-select-dropdown {
+  z-index: 1000;
+}

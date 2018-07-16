@@ -1,0 +1,36 @@
+$-app-color = #145587
+$-a-color = $-app-color
+$-base-font-size = 14px
+$-sub-color = #b2b2b2
+$-hr-color = #dee2e6
+$-border-color = #e4e5e7
+$-success-color = #19be6b
+$-info-color = $-app-color
+border-radius(n)
+  -webkit-border-radius n
+  -moz-border-radius n
+  border-radius n
+.app-color
+  color: $-app-color
+.base-font-size
+  font-size  $-base-font-size
+.sub-color
+  color $-sub-color
+bdr(n)
+  [data-dpr = "1"] &
+    border-radius(n)
+  [data-dpr = "2"] &
+    border-radius(n * 2)
+  [data-dpr = "3"] &
+    border-radius(n * 3)
+
+.vdr
+  display inline-block
+  width 1px
+  background-color $-hr-color
+  height 14px
+  margin-left 3px
+  margin-right 3px
+  vertical-align middle
+
+
